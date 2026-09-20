@@ -84,3 +84,8 @@ Every packet is 9 bytes: `7E 00 <cmd> <a> <b> <c> <d> 00 EF`.
 - `src/Language.{h,cpp}` — runtime language switching.
 - `src/main.cpp` — command-line handling.
 - `i18n/` — translation sources.
+
+## Credits
+
+- Author: **uriid1**
+- Built together with **Claude** (Anthropic)

@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("uriid1"));
     QCoreApplication::setApplicationName(QStringLiteral("bledom-qt"));
+    QCoreApplication::setApplicationVersion(QStringLiteral(BLEDOM_QT_VERSION));
 
     Language::apply(Language::saved());
 

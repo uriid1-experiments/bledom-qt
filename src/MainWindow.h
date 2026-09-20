@@ -33,6 +33,7 @@ protected:
 private:
     void buildUi();
     void buildMenu();
+    void showAbout();
     QWidget *buildConnectionBox();
     QWidget *buildPowerBox();
     QWidget *buildColorBox();
@@ -66,6 +67,8 @@ private:
     // menu
     QMenu *m_langMenu = nullptr;
     QActionGroup *m_langGroup = nullptr;
+    QMenu *m_helpMenu = nullptr;
+    QAction *m_aboutAction = nullptr;
 
     // connection
     QGroupBox *m_connBox = nullptr;

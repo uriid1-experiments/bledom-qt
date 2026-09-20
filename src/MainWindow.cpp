@@ -13,6 +13,7 @@
 #include <QLineEdit>
 #include <QMenu>
 #include <QMenuBar>
+#include <QMessageBox>
 #include <QPlainTextEdit>
 #include <QPushButton>
 #include <QRegularExpression>
@@ -123,6 +124,19 @@ void MainWindow::buildMenu()
     }
     connect(m_langGroup, &QActionGroup::triggered, this,
             [](QAction *a) { Language::apply(a->data().toString()); });
+
+    m_helpMenu = menuBar()->addMenu(QString());
+    m_aboutAction = m_helpMenu->addAction(QString(), this, &MainWindow::showAbout);
+}
+
+void MainWindow::showAbout()
+{
+    const QString text = QStringLiteral("<h3>bledom-qt %1</h3><p>%2</p><p>%3<br>%4</p>")
+        .arg(QCoreApplication::applicationVersion(),
+             tr("Desktop control for ELK-BLEDOM LED strips over Bluetooth LE."),
+             tr("Author: %1").arg(QStringLiteral("<b>uriid1</b>")),
+             tr("Built together with %1").arg(QStringLiteral("<b>Claude</b> (Anthropic)")));
+    QMessageBox::about(this, tr("About bledom-qt"), text);
 }
 
 QWidget *MainWindow::buildConnectionBox()
@@ -288,6 +302,8 @@ void MainWindow::retranslateUi()
 {
     setWindowTitle(tr("ELK-BLEDOM LED Strip"));
     m_langMenu->setTitle(tr("&Language"));
+    m_helpMenu->setTitle(tr("&Help"));
+    m_aboutAction->setText(tr("&About"));
 
     m_connBox->setTitle(tr("Connection"));
     m_deviceLbl->setText(tr("Device:"));

@@ -25,6 +25,8 @@ qt_add_translations(bledom-qt
     NO_GENERATE_PLURALS_TS_FILE
 )
 
+target_compile_definitions(bledom-qt PRIVATE BLEDOM_QT_VERSION="${PROJECT_VERSION}")
+
 target_link_libraries(bledom-qt PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Bluetooth)
 
 install(TARGETS bledom-qt RUNTIME DESTINATION bin)

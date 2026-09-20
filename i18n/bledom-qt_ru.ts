@@ -197,185 +197,215 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../src/MainWindow.cpp" line="63" />
-        <location filename="../src/MainWindow.cpp" line="298" />
+        <location filename="../src/MainWindow.cpp" line="64" />
+        <location filename="../src/MainWindow.cpp" line="314" />
         <source>Scan</source>
         <translation>Сканировать</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="289" />
+        <location filename="../src/MainWindow.cpp" line="136" />
+        <source>Desktop control for ELK-BLEDOM LED strips over Bluetooth LE.</source>
+        <translation>Управление светодиодной лентой ELK-BLEDOM с компьютера по Bluetooth LE.</translation>
+    </message>
+    <message>
+        <location filename="../src/MainWindow.cpp" line="137" />
+        <source>Author: %1</source>
+        <translation>Автор: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/MainWindow.cpp" line="138" />
+        <source>Built together with %1</source>
+        <translation>Сделано вместе с %1</translation>
+    </message>
+    <message>
+        <location filename="../src/MainWindow.cpp" line="139" />
+        <source>About bledom-qt</source>
+        <translation>О программе bledom-qt</translation>
+    </message>
+    <message>
+        <location filename="../src/MainWindow.cpp" line="303" />
         <source>ELK-BLEDOM LED Strip</source>
         <translation>ELK-BLEDOM — светодиодная лента</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="290" />
+        <location filename="../src/MainWindow.cpp" line="304" />
         <source>&amp;Language</source>
         <translation>&amp;Язык</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="292" />
+        <location filename="../src/MainWindow.cpp" line="305" />
+        <source>&amp;Help</source>
+        <translation>&amp;Справка</translation>
+    </message>
+    <message>
+        <location filename="../src/MainWindow.cpp" line="306" />
+        <source>&amp;About</source>
+        <translation>&amp;О программе</translation>
+    </message>
+    <message>
+        <location filename="../src/MainWindow.cpp" line="308" />
         <source>Connection</source>
         <translation>Подключение</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="293" />
+        <location filename="../src/MainWindow.cpp" line="309" />
         <source>Device:</source>
         <translation>Устройство:</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="294" />
+        <location filename="../src/MainWindow.cpp" line="310" />
         <source>MAC:</source>
         <translation>MAC:</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="295" />
+        <location filename="../src/MainWindow.cpp" line="311" />
         <source>Status:</source>
         <translation>Статус:</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="296" />
+        <location filename="../src/MainWindow.cpp" line="312" />
         <source>- discovered devices -</source>
         <translation>— найденные устройства —</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="297" />
+        <location filename="../src/MainWindow.cpp" line="313" />
         <source>MAC address, e.g. BE:60:C6:00:05:1B</source>
         <translation>MAC-адрес, например BE:60:C6:00:05:1B</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="298" />
-        <location filename="../src/MainWindow.cpp" line="354" />
+        <location filename="../src/MainWindow.cpp" line="314" />
+        <location filename="../src/MainWindow.cpp" line="370" />
         <source>Scanning...</source>
         <translation>Поиск…</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="301" />
+        <location filename="../src/MainWindow.cpp" line="317" />
         <source>Power</source>
         <translation>Питание</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="302" />
+        <location filename="../src/MainWindow.cpp" line="318" />
         <source>Turn on</source>
         <translation>Включить</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="303" />
+        <location filename="../src/MainWindow.cpp" line="319" />
         <source>Turn off</source>
         <translation>Выключить</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="305" />
+        <location filename="../src/MainWindow.cpp" line="321" />
         <source>Color and brightness</source>
         <translation>Цвет и яркость</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="306" />
-        <location filename="../src/MainWindow.cpp" line="436" />
+        <location filename="../src/MainWindow.cpp" line="322" />
+        <location filename="../src/MainWindow.cpp" line="452" />
         <source>Pick color...   %1</source>
         <translation>Выбрать цвет…   %1</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="307" />
+        <location filename="../src/MainWindow.cpp" line="323" />
         <source>Brightness</source>
         <translation>Яркость</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="309" />
+        <location filename="../src/MainWindow.cpp" line="325" />
         <source>Effects</source>
         <translation>Эффекты</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="310" />
+        <location filename="../src/MainWindow.cpp" line="326" />
         <source>Effect</source>
         <translation>Эффект</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="311" />
+        <location filename="../src/MainWindow.cpp" line="327" />
         <source>Speed</source>
         <translation>Скорость</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="312" />
+        <location filename="../src/MainWindow.cpp" line="328" />
         <source>Start</source>
         <translation>Запустить</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="324" />
+        <location filename="../src/MainWindow.cpp" line="340" />
         <source>Extras</source>
         <translation>Дополнительно</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="325" />
+        <location filename="../src/MainWindow.cpp" line="341" />
         <source>Sync time</source>
         <translation>Синхронизировать время</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="326" />
+        <location filename="../src/MainWindow.cpp" line="342" />
         <source>Raw:</source>
         <translation>Raw:</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="327" />
+        <location filename="../src/MainWindow.cpp" line="343" />
         <source>hex packet: 7e 00 05 03 ff 00 00 00 ef</source>
         <translation>hex-пакет: 7e 00 05 03 ff 00 00 00 ef</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="328" />
+        <location filename="../src/MainWindow.cpp" line="344" />
         <source>Send</source>
         <translation>Отправить</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="330" />
+        <location filename="../src/MainWindow.cpp" line="346" />
         <source>Log</source>
         <translation>Лог</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="338" />
+        <location filename="../src/MainWindow.cpp" line="354" />
         <source>not connected</source>
         <translation>не подключено</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="339" />
+        <location filename="../src/MainWindow.cpp" line="355" />
         <source>connecting...</source>
         <translation>подключение…</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="340" />
+        <location filename="../src/MainWindow.cpp" line="356" />
         <source>discovering services...</source>
         <translation>поиск сервисов…</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="341" />
+        <location filename="../src/MainWindow.cpp" line="357" />
         <source>connected to %1</source>
         <translation>подключено к %1</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="344" />
+        <location filename="../src/MainWindow.cpp" line="360" />
         <source>Connect</source>
         <translation>Подключить</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="344" />
+        <location filename="../src/MainWindow.cpp" line="360" />
         <source>Disconnect</source>
         <translation>Отключить</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="364" />
+        <location filename="../src/MainWindow.cpp" line="380" />
         <source>(no name)</source>
         <translation>(без имени)</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="384" />
+        <location filename="../src/MainWindow.cpp" line="400" />
         <source>Enter a MAC address or pick a device</source>
         <translation>Укажите MAC-адрес или выберите устройство</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="452" />
+        <location filename="../src/MainWindow.cpp" line="468" />
         <source>Strip color</source>
         <translation>Цвет ленты</translation>
     </message>
     <message>
-        <location filename="../src/MainWindow.cpp" line="467" />
+        <location filename="../src/MainWindow.cpp" line="483" />
         <source>Invalid hex</source>
         <translation>Некорректный hex</translation>
     </message>
@@ -383,34 +413,34 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/main.cpp" line="19" />
+        <location filename="../src/main.cpp" line="20" />
         <source>Control an ELK-BLEDOM LED strip over BLE.
 Example: bledom-qt -c BE:60:C6:00:05:1B --power on --color ff8800 --quit</source>
         <translation>Управление светодиодной лентой ELK-BLEDOM по BLE.
 Пример: bledom-qt -c BE:60:C6:00:05:1B --power on --color ff8800 --quit</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="24" />
+        <location filename="../src/main.cpp" line="25" />
         <source>Connect to the device on startup</source>
         <translation>Подключиться к устройству при запуске</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="27" />
+        <location filename="../src/main.cpp" line="28" />
         <source>Turn the strip on/off after connecting</source>
         <translation>Включить/выключить ленту после подключения</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="30" />
+        <location filename="../src/main.cpp" line="31" />
         <source>Set color after connecting</source>
         <translation>Установить цвет после подключения</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="33" />
+        <location filename="../src/main.cpp" line="34" />
         <source>Set brightness 0..100</source>
         <translation>Установить яркость 0..100</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="36" />
+        <location filename="../src/main.cpp" line="37" />
         <source>Exit after sending the commands (no GUI)</source>
         <translation>Выйти после отправки команд (без GUI)</translation>
     </message>
