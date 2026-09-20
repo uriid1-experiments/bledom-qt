@@ -2,8 +2,9 @@
 
 [English version](README.md)
 
-![Screenshot](screenshot.png)
 Qt6-приложение для управления светодиодной лентой с контроллером **ELK-BLEDOM** по Bluetooth LE.
+
+![Screenshot](screenshot.png)
 
 Возможности:
 
