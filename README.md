@@ -2,8 +2,9 @@
 
 [Русская версия](README.ru.md)
 
-![Screenshot](screenshot.png)
 A Qt 6 desktop application for controlling an **ELK-BLEDOM** LED strip controller over Bluetooth LE.
+
+![Screenshot](screenshot.png)
 
 Features:
 
